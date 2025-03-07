@@ -5,4 +5,4 @@ dict2 = {'b': 3, 'c': 4}
 #The {} braces create a new dictionary that includes all the key-value pairs from both dict1 and dict2.
 
 merged = {**dict1, **dict2}
-print(merged) #{'a': 1, 'b': 3, 'c': 4}
+print("final mearged data",merged) #{'a': 1, 'b': 3, 'c': 4}
