@@ -52,3 +52,6 @@ del my_list [1:3]
 print(my_list) #output = [10, 4.5, 50, 'banana', 7]
 
 'What is list comprehension in Python?'
+''' A concise way to create a new list from an existing iterable.'''
+squares = [x**2 for x in range(5)]
+print(squares)
